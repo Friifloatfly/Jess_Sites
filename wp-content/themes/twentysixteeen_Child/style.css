@@ -1,0 +1,48 @@
+/*
+Theme name: Jessies theme
+Description:Child theme based on twentysixteen
+Author: [company name]
+Verison: 1.0
+Template:twentysixteen
+*/
+
+@import url('../twentysixteen/style.css');
+@import url('https:fonts.googleapis.com/css? family=Permanent+Marker')
+/*font-family: 'Permanent Marker', cursive;*/
+
+
+
+.main-navigation{
+
+	font-family: Times;
+}
+body{
+	background-color: red;
+}
+	.entry-title{
+		font-family: 'Permanent Marker', cursive
+		color: blue;
+	}
+	.site-title {
+		font-family: 'Permanent Marker', cursive;
+		color: blue;
+	}
+.sticky: : before{
+	 content:"Information"
+	 display:block;
+	 font-family: ' poiret one', cursive;
+	 color: #ffffff;
+	 background-color: #696969;
+	 font-size: 180%;
+}
+@media screen and (min-width: 56.875em) {
+	.content-area {
+		width:100%
+	}
+}
+	
+
+
+
+
+
